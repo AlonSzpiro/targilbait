@@ -1,1 +1,1 @@
-Add-Type -AssemblyName Microsoft.VisualBasic; [Microsoft.VisualBasic.Interaction]::MsgBox("Current user: $(whoami)", 'OKOnly,Information', 'WhoAmI')
+Add-Type -AssemblyName Microsoft.VisualBasic; [Microsoft.VisualBasic.Interaction]::MsgBox("Hello: $env:USERNAME", 'OKOnly,Information', 'WhoAmI')
